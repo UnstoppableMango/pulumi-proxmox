@@ -348,3 +348,9 @@ MigrationBackup/
 
 # Ionide (cross platform F# VS Code tools) working folder
 .ionide/
+
+# From Pulumi template repo
+/vendor/
+**/node_modules/
+Pulumi.*.yaml
+yarn.lock
