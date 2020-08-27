@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e178377d-3be1-4424-a960-f8fefa1aff06" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/pulumi-proxmox.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd/pulumi-resource-xyz/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/pulumi-resource-xyz/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd/pulumi-sdkgen-xyz/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/pulumi-sdkgen-xyz/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/simple/Pulumi.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/examples/simple/Pulumi.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/simple/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/examples/simple/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/simple/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/examples/simple/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/simple/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/examples/simple/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/provider/provider.go" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/provider/provider.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/schema.json" beforeDir="false" afterPath="$PROJECT_DIR$/schema.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sdk/dotnet/Providers/Provider.cs" beforeDir="false" afterPath="$PROJECT_DIR$/sdk/dotnet/Providers/Provider.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sdk/dotnet/Random.cs" beforeDir="false" afterPath="$PROJECT_DIR$/sdk/dotnet/Random.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sdk/dotnet/Utilities.cs" beforeDir="false" afterPath="$PROJECT_DIR$/sdk/dotnet/Utilities.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sdk/go/xyz/doc.go" beforeDir="false" afterPath="$PROJECT_DIR$/sdk/go/xyz/doc.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sdk/go/xyz/providers/provider.go" beforeDir="false" afterPath="$PROJECT_DIR$/sdk/go/xyz/providers/provider.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sdk/go/xyz/random.go" beforeDir="false" afterPath="$PROJECT_DIR$/sdk/go/xyz/random.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sdk/nodejs/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/sdk/nodejs/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sdk/nodejs/providers/provider.ts" beforeDir="false" afterPath="$PROJECT_DIR$/sdk/nodejs/providers/provider.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sdk/nodejs/random.ts" beforeDir="false" afterPath="$PROJECT_DIR$/sdk/nodejs/random.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sdk/python/pulumi_xyz/providers/provider.py" beforeDir="false" afterPath="$PROJECT_DIR$/sdk/python/pulumi_xyz/providers/provider.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sdk/python/pulumi_xyz/random.py" beforeDir="false" afterPath="$PROJECT_DIR$/sdk/python/pulumi_xyz/random.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sdk/python/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/sdk/python/setup.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="1gfGtxYP4szRSXXbhZRV4TUsGW1" />
+  <component name="PropertiesComponent">
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.general" />
+  </component>
+</project>

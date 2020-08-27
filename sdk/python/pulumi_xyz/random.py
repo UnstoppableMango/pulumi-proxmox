@@ -40,7 +40,7 @@ class Random(pulumi.CustomResource):
             __props__['length'] = length
             __props__['result'] = None
         super(Random, __self__).__init__(
-            'xyz:index:Random',
+            'proxmox:index:Random',
             resource_name,
             __props__,
             opts)

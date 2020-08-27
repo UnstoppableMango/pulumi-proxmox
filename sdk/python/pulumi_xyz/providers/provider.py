@@ -12,7 +12,7 @@ from .. import utilities, tables
 class Provider(pulumi.ProviderResource):
     def __init__(__self__, resource_name, opts=None, __props__=None, __name__=None, __opts__=None):
         """
-        Create a Xyz resource with the given unique name, props, and options.
+        Create a Proxmox resource with the given unique name, props, and options.
         :param str resource_name: The name of the resource.
         :param pulumi.ResourceOptions opts: Options for the resource.
         """
@@ -34,7 +34,7 @@ class Provider(pulumi.ProviderResource):
             __props__ = dict()
 
         super(Provider, __self__).__init__(
-            'xyz',
+            'proxmox',
             resource_name,
             __props__,
             opts)

@@ -22,7 +22,7 @@ func NewProvider(ctx *pulumi.Context,
 		args = &ProviderArgs{}
 	}
 	var resource Provider
-	err := ctx.RegisterResource("pulumi:providers:xyz", name, args, &resource, opts...)
+	err := ctx.RegisterResource("pulumi:providers:proxmox", name, args, &resource, opts...)
 	if err != nil {
 		return nil, err
 	}

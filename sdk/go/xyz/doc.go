@@ -1,3 +1,3 @@
-// Package xyz exports types, functions, subpackages for provisioning xyz resources.//
+// Package proxmox exports types, functions, subpackages for provisioning proxmox resources.//
 // nolint: lll
-package xyz
+package proxmox

@@ -2,7 +2,7 @@
 // *** Do not edit by hand unless you're certain you know what you are doing! ***
 
 // nolint: lll
-package xyz
+package proxmox
 
 import (
 	"reflect"
@@ -28,7 +28,7 @@ func NewRandom(ctx *pulumi.Context,
 		args = &RandomArgs{}
 	}
 	var resource Random
-	err := ctx.RegisterResource("xyz:index:Random", name, args, &resource, opts...)
+	err := ctx.RegisterResource("proxmox:index:Random", name, args, &resource, opts...)
 	if err != nil {
 		return nil, err
 	}
@@ -40,7 +40,7 @@ func NewRandom(ctx *pulumi.Context,
 func GetRandom(ctx *pulumi.Context,
 	name string, id pulumi.IDInput, state *RandomState, opts ...pulumi.ResourceOption) (*Random, error) {
 	var resource Random
-	err := ctx.ReadResource("xyz:index:Random", name, id, state, &resource, opts...)
+	err := ctx.ReadResource("proxmox:index:Random", name, id, state, &resource, opts...)
 	if err != nil {
 		return nil, err
 	}

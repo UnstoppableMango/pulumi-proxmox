@@ -6,7 +6,7 @@ using System.Collections.Immutable;
 using System.Threading.Tasks;
 using Pulumi.Serialization;
 
-namespace Pulumi.Xyz
+namespace Pulumi.Proxmox
 {
     public partial class Random : Pulumi.CustomResource
     {
@@ -25,12 +25,12 @@ namespace Pulumi.Xyz
         /// <param name="args">The arguments used to populate this resource's properties</param>
         /// <param name="options">A bag of options that control this resource's behavior</param>
         public Random(string name, RandomArgs args, CustomResourceOptions? options = null)
-            : base("xyz:index:Random", name, args ?? ResourceArgs.Empty, MakeResourceOptions(options, ""))
+            : base("proxmox:index:Random", name, args ?? ResourceArgs.Empty, MakeResourceOptions(options, ""))
         {
         }
 
         private Random(string name, Input<string> id, RandomState? state = null, CustomResourceOptions? options = null)
-            : base("xyz:index:Random", name, state, MakeResourceOptions(options, id))
+            : base("proxmox:index:Random", name, state, MakeResourceOptions(options, id))
         {
         }
 

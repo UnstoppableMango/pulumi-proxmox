@@ -6,7 +6,7 @@ using System.Collections.Immutable;
 using System.Threading.Tasks;
 using Pulumi.Serialization;
 
-namespace Pulumi.Xyz.Providers
+namespace Pulumi.Proxmox.Providers
 {
     public partial class Provider : Pulumi.ProviderResource
     {
@@ -18,7 +18,7 @@ namespace Pulumi.Xyz.Providers
         /// <param name="args">The arguments used to populate this resource's properties</param>
         /// <param name="options">A bag of options that control this resource's behavior</param>
         public Provider(string name, ProviderArgs? args = null, ResourceOptions? options = null)
-            : base("xyz", name, args ?? ResourceArgs.Empty, MakeResourceOptions(options, ""))
+            : base("proxmox", name, args ?? ResourceArgs.Empty, MakeResourceOptions(options, ""))
         {
         }
 

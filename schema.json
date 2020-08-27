@@ -1,8 +1,8 @@
 {
-    "name": "xyz",
+    "name": "proxmox",
     "version": "0.0.1",
     "resources": {
-        "xyz:index:Random": {
+        "proxmox:index:Random": {
             "properties": {
                 "length": {
                     "type": "integer"
