@@ -1,7 +1,7 @@
 {
-    "name": "xyz",
+    "name": "proxmox",
     "resources": {
-        "xyz:index:StaticPage": {
+        "proxmox:index:StaticPage": {
             "isComponent": true,
             "inputProperties": {
                 "indexContent": {
@@ -37,7 +37,7 @@
         },
         "go": {
             "generateResourceContainerTypes": true,
-            "importBasePath": "github.com/pulumi/pulumi-xyz/sdk/go/xyz"
+            "importBasePath": "github.com/pulumi/pulumi-proxmox/sdk/go/proxmox"
         },
         "nodejs": {
             "dependencies": {

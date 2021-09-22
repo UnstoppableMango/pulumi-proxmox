@@ -1,6 +1,6 @@
-import * as xyz from "@pulumi/xyz";
+import * as proxmox from "@pulumi/proxmox";
 
-const page = new xyz.StaticPage("page", {
+const page = new proxmox.StaticPage("page", {
     indexContent: "<html><body><p>Hello world!</p></body></html>",
 });
 

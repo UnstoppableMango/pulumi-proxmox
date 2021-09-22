@@ -1,3 +1,3 @@
-// Package xyz exports types, functions, subpackages for provisioning xyz resources.
+// Package proxmox exports types, functions, subpackages for provisioning proxmox resources.
 //
-package xyz
+package proxmox
