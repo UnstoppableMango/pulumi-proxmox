@@ -31,6 +31,8 @@ export class Provider implements provider.Provider {
     switch (type) {
       case "proxmox:index:StaticPage":
         return await constructStaticPage(name, inputs, options);
+      case "proxmox:index:Iso":
+        return await constructIso(name, inputs, options);
       default:
         throw new Error(`unknown resource type ${type}`);
     }
